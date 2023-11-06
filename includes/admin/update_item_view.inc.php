@@ -1,0 +1,22 @@
+<?php
+
+declare(strict_types=1);
+
+function checkUpdateItemErrors() 
+{
+    if (isset($_SESSION['errors_update'])) {
+        $errors = $_SESSION['errors_update'];
+
+        echo "<br>";
+        
+        foreach ($errors as $error) {
+            echo '<p>' . $error . '</p>';
+        }
+
+        unset($_SESSION['errors_update']);
+    
+    } else if (isset($_GET["update"]) && $_GET["update"] === "success") {
+        echo '<br>';
+        echo '<p>Update success!</p>';
+    }
+}

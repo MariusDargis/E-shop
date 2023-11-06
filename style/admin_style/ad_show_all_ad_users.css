@@ -1,0 +1,123 @@
+.users_admin {
+    background: green;
+    height: 100%;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 900;
+} 
+
+.users_admin:hover {
+    background: rgb(2, 199, 2);
+} 
+
+.users_admin_box {
+    position: fixed;
+    width: 100vw;
+    height: 100%;
+    background: rgb(156, 156, 156);
+    left: 0;
+    top: 70px;
+    border: 2px solid rgb(2, 19, 73);
+    display: none;
+    cursor: auto;
+  /*  display: flex; */
+}
+
+.users_admin_turn_of {
+    background: rgb(43, 42, 42);
+    height: 100%;
+    width: 30px; 
+    z-index: 60;
+    left: 20px;
+    cursor: pointer;
+}
+
+.users_admin_box_menu {
+   width: 20%; 
+   height: 100%;
+   border: 1px solid black;
+}
+
+.users_admin_box_adusers {
+    position: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    height: 100%;
+    border: 1px solid black;
+ }
+
+ .users_admin_box_allusers {
+    width: 20%; 
+    height: 100%;
+    border: 1px solid black;
+    position: flex;
+    align-items: center;
+ }
+
+ .all_users {
+    background: rgb(221, 220, 220);
+    text-align: center;
+    border: 1px solid black;
+    margin: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+
+ }
+
+ .users_admin_box h6 {
+    background: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 25px;
+    border-bottom: 1px solid black;
+ }
+
+.all_ad_us_box {
+    background: white;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    border: 3px solid black;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.all_ad_us_name {
+    flex-grow: 1;
+    background: rgb(158, 158, 158);
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+
+}
+
+.all_ad_us {
+    border-left: 1px solid black;
+    background: rgb(212, 212, 212);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    
+}
+
+
+.all_ad_us p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+} 
